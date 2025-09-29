@@ -4,14 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Semantic Navbar & Audios</title>
+  <style>
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 20px;
+      background: #f0f0f0;
+      padding: 10px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    section {
+      margin-top: 20px;
+    }
+    audio {
+      display: block;
+      margin: 10px 0;
+    }
+  </style>
 </head>
 <body>
-  
+
   <!-- Part 1: Semantic Navbar -->
   <nav>
     <ul>
       <li><a href="https://example.com/home">Home</a></li>
-      <li><a href="https://example.com/about">About</a></li>
+      <li><a href="https://example.com/services">Services</a></li>
       <li><a href="https://example.com/contact">Contact</a></li>
     </ul>
   </nav>
@@ -19,16 +42,17 @@
   <!-- Part 2: Audio Section -->
   <section>
     <h2>3 random audios</h2>
+    
     <audio controls>
       <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
-    <br>
+
     <audio controls>
       <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
       Your browser does not support the audio element.
     </audio>
-    <br>
+
     <audio controls>
       <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
