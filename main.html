@@ -1,58 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Semantic Navbar & Audios</title>
-  <style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-  }
-  nav {
-    background-color: #3b99e0;
-    padding: 10px 15px;
-    border-radius: 5px;
-  }
-  nav ul {
-    list-style: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
-  }
-  nav li {
-    margin-right: 20px;
-  }
-  nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-  }
-  nav a:hover {
-    text-decoration: underline;
-  }
-  #audio-section {
-    margin-top: 40px;
-  }
-  #audio-section h2 {
-    margin-bottom: 15px;
-    color: #3b99e0;
-  }
-  #audio-section p {
-    font-style: italic;
-    margin-bottom: 20px;
-  }
-  #audio-section audio {
-    display: block;
-    margin-bottom: 15px;
-    max-width: 400px;
-    width: 100%;
-  }
-</style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Semantic Navbar & Audio Section</title>
+<link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
 
- <nav>
+<nav>
   <ul>
     <li><a href="#home">Home</a></li>
     <li><a href="#features">Features</a></li>
@@ -63,16 +19,13 @@
 <section id="audio-section">
   <h2>Audio Section</h2>
   <p>3 random audios</p>
-  <audio controls>
-    <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg" />
+  <audio controls src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3">
     Your browser does not support the audio element.
   </audio>
-  <audio controls>
-    <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg" />
+  <audio controls src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
     Your browser does not support the audio element.
   </audio>
-  <audio controls>
-    <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mpeg" />
+  <audio controls src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3">
     Your browser does not support the audio element.
   </audio>
 </section>

@@ -1,2 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
 
-/* Your CSS Code here. */
+nav {
+  background-color: #3b99e0;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#audio-section {
+  margin-top: 40px;
+}
+
+#audio-section h2 {
+  margin-bottom: 15px;
+  color: #3b99e0;
+}
+
+#audio-section p {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+#audio-section audio {
+  display: block;
+  margin-bottom: 15px;
+  max-width: 400px;
+  width: 100%;
+}
